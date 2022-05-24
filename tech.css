@@ -1,6 +1,10 @@
 body{
   color: #388087;
-  background-color: #F6F6F2
+  background-color: #F6F6F2;
+  margin-left: 7%;
+  margin-right: 7%;
+  
+  
   
 }
 
@@ -10,6 +14,8 @@ font-weight:bold;
 
 
 }
+
+
 
 #colors{
 

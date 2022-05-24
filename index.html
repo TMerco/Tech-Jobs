@@ -20,26 +20,58 @@
 </head>
 
 <body>
-   
-    <!-- Homepage Tyrell's-->
-<!-- Container to frame the content -->
+
     <section class="container" id="section1">
-        <!-- calling nav classes -->
-        <nav class="navbar navbar-expand-lg">
-            <!-- container will adjust with the window size -->
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Top Tech Jobs</a>
-  
+
+     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+         
+        <!-- navbar is 100% view all of the time -->
+        <div class="container-fluid">
+            <span><b>Top Tech Jobs</b></span>
+
+        <!-- Hamburger menu when the page is shrunk -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- The list items that are inside of the hamburger menu -->
+            <div class="colapse navbar-collapse" id="navbar1">
+            
+                <ul class="nav navbar-nav justify-content-end">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <!-- List Item that contains a drop down menu -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">Jobs</a>
+                        <!-- The List items that are within the other list item "Lookbooks" -->
+                            <ul class="dropdown-menu">
+
+                                <a href="#" class="dropdown-item">Data Analyst</a>
+                                
+                                <a href="#" class="dropdown-item">Web Developer</a>
+                              
+                                <a href="#" class="dropdown-item">Software Engineer</a>
+
+                            </ul>
+                    </li>
+                </ul>
             </div>
-
-
-        </nav>
-    </section>
+        </div>
+    </nav>  
+</section>
 
 
 
 
     <!-- About Tyrell-->
+    <div class="main">
     <section class="container" id="section2">
         <div class="row">
             <div class="col">
@@ -213,7 +245,7 @@
                 </div>
             </div>
     </section>
-
+</div>
 
 
 

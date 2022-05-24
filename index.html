@@ -20,25 +20,61 @@
 </head>
 
 <body>
-    <!-- Homepage Tyrell's-->
-<!-- Container to frame the content -->
+
     <section class="container" id="section1">
-        <!-- calling nav classes -->
-        <nav class="navbar navbar-expand-lg">
-            <!-- container will adjust with the window size -->
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Top Tech Jobs</a>
-  
+
+     <nav class="navbar navbar-expand-md navbar-light bg-light">
+         
+        <!-- navbar is 100% view all of the time -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Top Tech Jobs</a>
+
+        <!-- Hamburger menu when the page is shrunk -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- The list items that are inside of the hamburger menu -->
+            <div class="colapse navbar-collapse" id="navbar1">
+            
+                <ul class="navbar-nav">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://us.bape.com/">Home</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#section1">About</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://us.bape.com/collections/all">Web Store</a>
+                    </li>
+                    <!-- List Item that contains a drop down menu -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">Lookbooks</a>
+                        <!-- The List items that are within the other list item "Lookbooks" -->
+                            <ul class="dropdown-menu">
+
+                                <a href="https://us.bape.com/pages/2022-ss-mens-lookbook" class="dropdown-item">Men's Lookbook</a>
+                                
+                                <a href="https://us.bape.com/pages/2022-ss-ladies-lookbook" class="dropdown-item">ladie's Lookbook</a>
+                              
+                                <a href="https://us.bape.com/pages/2022-ss-kids-lookbook" class="dropdown-item">Kid's Lookbook</a>
+
+                            </ul>
+                    </li>
+                </ul>
             </div>
-
-
-        </nav>
-    </section>
+        </div>
+    </nav>  
+</section>
 
 
 
 
     <!-- About Tyrell-->
+    <div class="main">
     <section class="container" id="section2">
         <div class="row">
             <div class="col">
@@ -212,7 +248,7 @@
                 </div>
             </div>
     </section>
-
+</div>
 
 
 

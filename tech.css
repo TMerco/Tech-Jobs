@@ -28,8 +28,8 @@ section{
 
 nav {
   margin: 1em;}
-nav a {
-  color: #e7ecec;
+nav span b{
+  font-size: 2em;
 }
 
 a {
